@@ -1,0 +1,145 @@
+html {
+  height: 100%;
+  margin: 0; }
+
+body {
+  height: 100%;
+  margin: 0; }
+
+/* Header*/
+header {
+  background-image: url("../img/header_background_v2.jpg");
+  height: 100vh;
+  width: 99vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font: normal 300 15px/24px Roboto, Ubuntu, Cantarell, Helvetica, sans-serif; }
+  header .logo {
+    display: inline-block; }
+    header .logo img {
+      height: 20vh;
+      width: 30vh; }
+  header nav {
+    display: inline-block;
+    float: right;
+    margin-right: 5vw;
+    padding-top: 2vh; }
+    header nav a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: white;
+      font-size: 23px;
+      padding-right: 4vw;
+      margin-right: 1vw;
+      padding-top: 100%;
+      padding-bottom: 4%; }
+    header nav :nth-child(1) {
+      border-right: 3px solid gray; }
+    header nav :nth-child(2) {
+      border-right: 3px solid gray; }
+  header section {
+    padding-top: 30vh; }
+    header section a {
+      margin-left: 46%;
+      margin-right: 46%;
+      text-align: center;
+      display: block;
+      color: white;
+      text-transform: uppercase;
+      text-decoration: none;
+      background-color: #00aeae;
+      padding: 10px 6px 10px 6px; }
+  header h1 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase; }
+
+/*MAIN*/
+main {
+  margin-left: 20vw;
+  margin-right: 20vw;
+  font: normal 18px/26px "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+  main .toolbar {
+    width: 100%; }
+    main .toolbar input {
+      margin-top: 3vh;
+      margin-left: 50vw;
+      border-color: lightgray;
+      opacity: 0.7;
+      padding-left: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px; }
+  main .post-list h1 {
+    text-align: right;
+    text-transform: uppercase; }
+  main article {
+    background-color: #f0f0f0;
+    margin-bottom: 2vh;
+    display: flex; }
+    main article img {
+      margin: 1vh 1vh 1vh 1vh; }
+    main article div:nth-child(1) {
+      margin-top: 2vh; }
+    main article .post-description {
+      color: red;
+      border-bottom: 2px solid gray;
+      margin-right: 2vh;
+      padding-bottom: 1vh; }
+    main article h3 {
+      color: #00aeae;
+      text-transform: uppercase; }
+    main article p {
+      padding-right: 2vh; }
+    main article .btn {
+      color: white;
+      text-transform: uppercase;
+      border: none;
+      background-color: #00aeae;
+      padding: 16px 40px 16px 40px;
+      float: right;
+      margin-right: 2vh; }
+
+/*ABOUT*/
+.about h1 {
+  text-transform: uppercase;
+  text-align: right; }
+.about img {
+  width: 100%; }
+
+/*contact-form*/
+.contact-form h1 {
+  text-transform: uppercase;
+  text-align: right; }
+.contact-form h4 {
+  text-transform: uppercase;
+  text-align: right; }
+.contact-form form .data label {
+  color: #00aeae;
+  float: right; }
+.contact-form form .data .full {
+  display: inline-block; }
+  .contact-form form .data .full #name {
+    height: 4vh;
+    width: 29vw; }
+.contact-form form .data .mail {
+  display: inline-block; }
+  .contact-form form .data .mail #email {
+    height: 4vh;
+    width: 29vw; }
+.contact-form form .area {
+  margin-top: 2vh; }
+  .contact-form form .area label {
+    color: #00aeae;
+    float: right; }
+  .contact-form form .area #question {
+    height: 8vh;
+    width: 99.5%; }
+.contact-form form button {
+  margin-top: 2vh;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  background-color: #00aeae;
+  padding: 16px 50px 16px 50px;
+  float: right; }

@@ -1,0 +1,192 @@
+// Write your styles here
+html {
+  height: 100%;
+  margin: 0;
+}
+body {
+height: 100%;
+margin: 0;
+}
+
+/* Header*/
+header {
+  background-image: $background_image;
+  height: 100vh;
+  width: 99vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font: $font_header;
+  .logo {
+    display: inline-block;
+    img {
+      height: 20vh;
+      width: 30vh;
+    }
+  }
+  nav {
+    display: inline-block;
+    float: right;
+    margin-right: 5vw;
+    padding-top: 2vh;
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: white;
+      font-size: 23px;
+      padding-right: 4vw;
+      margin-right:  1vw;
+      padding-top: 100%;
+      padding-bottom: 4%;
+    }
+    :nth-child(1) {
+      border-right: 3px solid gray;
+    }
+    :nth-child(2) {
+      border-right: 3px solid gray;
+    }
+  }
+  section {
+    padding-top: 30vh;
+    a {
+      margin-left: 46%;
+      margin-right: 46%;
+      text-align:center;
+      display:block;
+      color: white;
+      text-transform: uppercase;
+      text-decoration: none;
+      background-color: #00aeae;
+      padding: 10px 6px 10px 6px;
+
+    }
+  }
+  h1 {
+    text-align: center;
+
+    color: white;
+    text-transform: uppercase;
+  }
+}
+/*MAIN*/
+main {
+  margin-left: 20vw;
+  margin-right: 20vw;
+  font: $font_main;
+  .toolbar {
+    width: 100%;
+    input {
+      margin-top: 3vh;
+      margin-left: 50vw;
+      border-color: lightgray;
+      opacity: 0.7;
+      padding-left: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+  }
+  .post-list {
+    h1 {
+      text-align: right;
+      text-transform: uppercase;
+    }
+  }
+  article {
+  background-color: #f0f0f0;
+  margin-bottom: 2vh;
+  display: flex;
+  img {
+    margin: 1vh 1vh 1vh 1vh;
+
+
+  }
+  div:nth-child(1) {
+    margin-top: 2vh;
+  }
+  .post-description {
+    color: red;
+    border-bottom: 2px solid gray;
+    margin-right: 2vh;
+    padding-bottom: 1vh;
+  }
+  h3 {
+    color: #00aeae;
+    text-transform: uppercase;
+  }
+  p {
+    padding-right: 2vh;
+  }
+  .btn {
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    background-color: #00aeae;
+    padding: 16px 40px 16px 40px;
+    float: right;
+    margin-right: 2vh;
+  }
+  }
+}
+/*ABOUT*/
+.about {
+  h1 {
+    text-transform: uppercase;
+    text-align: right;
+  }
+  img {
+    width: 100%;
+  }
+}
+/*contact-form*/
+.contact-form {
+  h1 {
+    text-transform: uppercase;
+    text-align: right;
+  }
+  h4{
+    text-transform: uppercase;
+    text-align: right;
+  }
+  form {
+    .data {
+      label {
+        color: #00aeae;
+        float: right;
+      }
+      .full{
+        display: inline-block;
+        #name {
+          height: 4vh;
+          width: 29vw;
+        }
+      }
+      .mail {
+        display: inline-block;
+        #email {
+          height: 4vh;
+          width: 29vw;
+        }
+      }
+    }
+    .area {
+        margin-top: 2vh;
+      label {
+        color: #00aeae;
+        float: right;
+      }
+      #question {
+        height: 8vh;
+        width: 99.5%;
+      }
+    }
+    button {
+      margin-top: 2vh;
+      color: white;
+      text-transform: uppercase;
+      border: none;
+      background-color: #00aeae;
+      padding: 16px 50px 16px 50px;
+      float: right;
+    }
+  }
+}
