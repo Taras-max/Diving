@@ -18,8 +18,8 @@ header {
   header .logo {
     display: inline-block; }
     header .logo img {
-      height: 20vh;
-      width: 30vh; }
+      height: 16vh;
+      width: 24vh; }
   header nav {
     display: inline-block;
     float: right;
@@ -29,11 +29,13 @@ header {
       text-decoration: none;
       text-transform: uppercase;
       color: white;
-      font-size: 23px;
+      font-size: 18px;
       padding-right: 4vw;
+      padding-left: 3vw;
       margin-right: 1vw;
       padding-top: 100%;
-      padding-bottom: 4%; }
+      padding-bottom: 4%;
+      font-weight: bold; }
     header nav :nth-child(1) {
       border-right: 3px solid gray; }
     header nav :nth-child(2) {
@@ -41,8 +43,8 @@ header {
   header section {
     padding-top: 30vh; }
     header section a {
-      margin-left: 46%;
-      margin-right: 46%;
+      margin-left: 44.5%;
+      margin-right: 44.5%;
       text-align: center;
       display: block;
       color: white;
@@ -59,17 +61,16 @@ header {
 main {
   margin-left: 20vw;
   margin-right: 20vw;
-  font: normal 18px/26px "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+  font: normal 300 15px/24px Roboto, Ubuntu, Cantarell, Helvetica, sans-serif; }
   main .toolbar {
     width: 100%; }
     main .toolbar input {
       margin-top: 3vh;
-      margin-left: 50vw;
-      border-color: lightgray;
-      opacity: 0.7;
-      padding-left: 10px;
-      padding-top: 5px;
-      padding-bottom: 5px; }
+      margin-left: 49vw;
+      border-color: black;
+      padding-left: 15px;
+      padding-top: 7px;
+      padding-bottom: 7px; }
   main .post-list h1 {
     text-align: right;
     text-transform: uppercase; }
@@ -96,7 +97,7 @@ main {
       text-transform: uppercase;
       border: none;
       background-color: #00aeae;
-      padding: 16px 40px 16px 40px;
+      padding: 14px 75px 14px 75px;
       float: right;
       margin-right: 2vh; }
 
@@ -133,7 +134,7 @@ main {
     color: #00aeae;
     float: right; }
   .contact-form form .area #question {
-    height: 8vh;
+    height: 10vh;
     width: 99.5%; }
 .contact-form form button {
   margin-top: 2vh;
@@ -141,5 +142,10 @@ main {
   text-transform: uppercase;
   border: none;
   background-color: #00aeae;
-  padding: 16px 50px 16px 50px;
+  padding: 10px 75px 10px 75px;
   float: right; }
+
+/*FOOTER*/
+footer span {
+  padding-left: 2vh;
+  padding-bottom: 2vh; }
